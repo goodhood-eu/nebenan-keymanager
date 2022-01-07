@@ -7,7 +7,7 @@
   "homepage": "https://nebenan.de/",
   "repository": "goodhood-eu/nebenan-keymanager",
   "bugs": "https://github.com/goodhood-eu/nebenan-keymanager/issues",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "files": [
     "dist/*.js"
   ],
