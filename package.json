@@ -5,8 +5,8 @@
   "license": "SEE LICENSE IN LICENSE FILE",
   "readmeFilename": "README.md",
   "homepage": "https://nebenan.de/",
-  "repository": "goodhood-eu/nebenan-heartbeat",
-  "bugs": "https://github.com/goodhood-eu/nebenan-heartbeat/issues",
+  "repository": "goodhood-eu/nebenan-keymanager",
+  "bugs": "https://github.com/goodhood-eu/nebenan-keymanager/issues",
   "version": "1.0.0",
   "files": [
     "dist/*.js"
