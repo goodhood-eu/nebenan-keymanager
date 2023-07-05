@@ -1,11 +1,10 @@
 {
   "name": "nebenan-keymanager",
   "description": "Nebenan keymanager helper library",
-  "author": "Nebenan.de <info@nebenan.de>",
-  "license": "SEE LICENSE IN LICENSE FILE",
-  "readmeFilename": "README.md",
-  "homepage": "https://nebenan.de/",
-  "repository": "goodhood-eu/nebenan-keymanager",
+  "author": "Good Hood GmbH <tech@nebenan.de>",
+  "license": "MIT",
+  "homepage": "https://github.com/goodhood-eu/nebenan-keymanager#readme",
+  "repository": "github:goodhood-eu/nebenan-keymanager",
   "bugs": "https://github.com/goodhood-eu/nebenan-keymanager/issues",
   "version": "1.0.1",
   "files": [
