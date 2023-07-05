@@ -8,14 +8,15 @@
   "bugs": "https://github.com/goodhood-eu/nebenan-keymanager/issues",
   "version": "1.0.1",
   "files": [
-    "dist/*.js"
+    "lib/*.js",
+    "lib/*/*.js"
   ],
   "main": "./dist/index.js",
   "scripts": {
     "reinstall": "rm -rf node_modules package-lock.json && npm install",
     "check": "npm test && npm run lint && echo \"\\033[0;32mReady to publish\\033[0m\"",
-    "clean": "rm -rf ./dist/ || exit 1",
-    "build": "NODE_ENV=production babel src --out-dir dist --copy-files",
+    "clean": "rm -rf ./lib/ || exit 1",
+    "build": "NODE_ENV=production babel src --out-dir lib --copy-files",
     "prepublishOnly": "npm run check && npm run clean && npm run build",
     "lint": "eslint ./",
     "lint:tofile": "eslint --no-color -o ./eslint-report.log ./",

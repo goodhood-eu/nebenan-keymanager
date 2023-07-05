@@ -11,7 +11,7 @@ describe('keymanager', () => {
     global.window = true;
     global.document = {};
     global.document.addEventListener = sinon.spy((event, callback) => { handler = callback; });
-    const res = proxyquire('../dist/index', {});
+    const res = proxyquire('../lib/index', {});
     keys = res.keys;
     keymanager = res.default;
   });
@@ -24,7 +24,7 @@ describe('keymanager', () => {
   it('server safe', () => {
     delete global.window;
     global.document.addEventListener = sinon.spy();
-    const serverkeymanager = require('../dist/index').default;
+    const serverkeymanager = require('../lib/index').default;
     const spy = sinon.spy();
     const unsubscribe = serverkeymanager('esc', spy);
 
