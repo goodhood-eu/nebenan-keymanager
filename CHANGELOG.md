@@ -1,4 +1,7 @@
-## v1.0.1 Initial release
+## v1.0.2
+- Cleanups
+
+## v1.0.1
 - Description fixes
 
 ## v1.0.0 Initial release

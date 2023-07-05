@@ -26,11 +26,18 @@ node_modules/*
 
 # Users Environment Variables
 .lock-wscript
-.idea
 .scripts
 
 # MacOS
 .DS_Store
 
 # Compiled files
-dist/
+lib/
+
+# Code editors
+.vscode
+.idea
+
+# Yalc
+.yalc
+yalc.lock
