@@ -11,7 +11,7 @@
     "lib/*.js",
     "lib/*/*.js"
   ],
-  "main": "./dist/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "reinstall": "rm -rf node_modules package-lock.json && npm install",
     "check": "npm test && npm run lint && echo \"\\033[0;32mReady to publish\\033[0m\"",
