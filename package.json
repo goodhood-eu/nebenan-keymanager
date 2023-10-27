@@ -6,7 +6,7 @@
   "homepage": "https://github.com/goodhood-eu/nebenan-keymanager#readme",
   "repository": "github:goodhood-eu/nebenan-keymanager",
   "bugs": "https://github.com/goodhood-eu/nebenan-keymanager/issues",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "files": [
     "lib/*.js",
     "lib/*/*.js"
